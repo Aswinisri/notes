@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hsdp tech</title>
+    <link rel="stylesheet" href="register.css">
+
+</head>
+
+<body>
+    <h1 style="text-align: center;">APPLICATION FORM</h1>
+    <form aciton ="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+        <div class="formdesign"style="text-align: center;" id="name">
+            Name<br><input type="text" name="fname" required><b><span class="formerror"> </span></b>
+        </div>
+
+        <div class="formdesign" style="text-align: center;" id="email">
+            Email<br><input type="email"name="femail" required><b><span class="formerror"> </span></b>
+        </div>
+
+        <div class="formdesign" style="text-align: center;" id="phone">
+            Phone<br><input type="phone" name="fphone" required><b><span class="formerror"></span></b>
+        </div>
+        <div class="formdesign" style="text-align: center;" id="register number">
+            Register Number<br> <input type="number" name="fregister number" required><b><span class="formerror"></span></b>
+        </div>
+        <!-- <div class="dropdown" style="text-align: center">
+            <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+            <div id="myDropdown" class="dropdown-content">
+            <a href="#male">Male</a>
+            <a href="#female">Female</a>
+            <a href="#others">Others</a>
+        </div> -->
+            <span class="gender" style="text-align: center;">Select Gender</span><br>
+             <select id="gender" name="Course">
+             <option value="--select here--">--select gender--</option>
+             <option value="Male">Male</option>
+             <option value="Female">Female</option>
+             <option value="Others">Others</option>
+        </select>
+        
+      </div>
+        <!-- <div class="gender-details">
+            <input type="radio" name="gender" id="dot-1">
+            <input type="radio" name="gender" id="dot-2">
+            <input type="radio" name="gender" id="dot-3">
+            <span  style="margin-left: 700px;" class="gender-title">Gender</span>
+            <div class="category"  style="margin-left: 130px">
+              <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="gender">Male</span>
+            </label>
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="gender">Female</span>
+            </label>
+            <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="gender">Others</span>
+              </label>
+            </div>
+          </div> -->
+        <div class="formdesign" style="text-align: center;" id="Address">
+            Address<br> <input type="text" name="faddress" required><b><span class="formerror"> </span></b>
+        </div>
+        <div class="formdesign" style="text-align: center;" id="Nationality">
+            Nationality<br> <input type="text" name="fnationality" required><b><span class="formerror"> </span></b>
+        </div>
+        <div class="formdesign" style="text-align: center;" id="State">
+            State<br> <input type="text" name="fstate" required><b><span class="formerror"> </span></b>
+        </div>
+        <div class="formdesign" style="text-align: center;" id="District">
+            District<br> <input type="text" name="fdistrict" required><b><span class="formerror"> </span></b>
+        </div>
+        <div class="formdesign" style="text-align: center;" id="College name">
+            College Name<br> <input type="text" name="fcollege name" required><b><span class="formerror"> </span></b>
+        </div>
+        <div class="formdesign" style="text-align: center;" id="University name">
+            University Name<br> <input type="text" name="funiversity name" required><b><span class="formerror"> </span></b>
+        </div>
+        <div class="formdesign" style="text-align: center;" id="Qualification">
+            Qualification<br> <input type="text" name="fqualification" required><b><span class="formerror"> </span></b>
+        </div>
+        
+
+        <input class="but" type="submit" value="Submit">
+
+    </form>
+</body>
+<script src="register.js"></script>
+
+</html>
